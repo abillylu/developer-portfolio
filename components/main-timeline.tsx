@@ -103,7 +103,7 @@ export const MainTimeline = ({ timeline }: { timeline: ContentTimeline[] }) => {
 								<Card className="w-120 p-4 opacity-75 relative flex flex-col justify-between overflow-hidden rounded-md border hover:shadow-md">
 									<div className="flex items-center">
 										<Image
-											src={`/${education.logo}`}
+											src={education.logo}
 											width={100}
 											height={100}
 											alt={education.school}

@@ -77,34 +77,34 @@ import { CircleQuestionMark, Cog, Phone } from "lucide-react";
 
 const relatedLinks = [
 	{
-		icon: "github.svg",
+		icon: "./github.svg",
 		name: "GitHub",
 		link: "https://github.com/abillylu",
 	},
 	{
-		icon: "linkedin.svg",
+		icon: "./linkedin.svg",
 		name: "LinkedIn",
 		link: "https://www.linkedin.com/in/billy-a-lu",
 	},
 	{
-		icon: "gmail.svg",
+		icon: "./gmail.svg",
 		name: "GMail (a.billy.lu@gmail.com)",
 		link: "mailto:abillylu@gmail.com",
 	},
 	{
-		icon: "viber.svg",
+		icon: "./viber.svg",
 		name: "Viber (+63 999 366 5493)",
 		link: "viber://contact?number=%2B639993665493",
 	},
 	{
-		icon: "cv.svg",
+		icon: "./cv.svg",
 		name: "CV",
-		link: "/CV.pdf",
+		link: "./CV.pdf",
 	},
 	{
-		icon: "diploma.svg",
+		icon: "./diploma.svg",
 		name: "Diploma",
-		link: "Diploma.png",
+		link: "./Diploma.png",
 	},
 ];
 
@@ -190,7 +190,7 @@ export default function Home() {
 															className="m-2 w-[50] h-[50]"
 															height={50}
 															width={50}
-															src={link.icon}
+															src={`.${link.icon}`}
 															alt={link.name}
 														/>
 													</Link>

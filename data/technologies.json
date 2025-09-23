@@ -2,307 +2,307 @@
 	"cloudsql": {
 		"name": "Cloud SQL",
 		"url": "https://cloud.google.com/sql",
-		"logo": "cloudsql.svg"
+		"logo": "./cloudsql.svg"
 	},
 
 	"betterauth": {
 		"name": "Better Auth",
 		"url": "https://www.better-auth.com",
-		"logo": "betterauth.svg"
+		"logo": "./betterauth.svg"
 	},
 	"shadcn": {
 		"name": "shadcn",
 		"url": "https://ui.shadcn.com",
-		"logo": "shadcn.svg"
+		"logo": "./shadcn.svg"
 	},
 	"vite": {
 		"name": "Vite",
 		"url": "https://vite.dev",
-		"logo": "vite.svg"
+		"logo": "./vite.svg"
 	},
 	"react": {
 		"name": "React",
 		"url": "https://react.dev",
-		"logo": "react.svg"
+		"logo": "./react.svg"
 	},
 	"vue": {
 		"name": "Vue",
 		"url": "https://vuejs.org",
-		"logo": "vue.svg"
+		"logo": "./vue.svg"
 	},
 	"laravel": {
 		"name": "Laravel",
 		"url": "https://laravel.com",
-		"logo": "laravel.svg"
+		"logo": "./laravel.svg"
 	},
 	"python": {
 		"name": "Python",
 		"url": "https://www.python.org",
-		"logo": "python.svg"
+		"logo": "./python.svg"
 	},
 	"tailwindcss": {
 		"name": "Tailwind CSS",
 		"url": "https://tailwindcss.com",
-		"logo": "tailwindcss.svg"
+		"logo": "./tailwindcss.svg"
 	},
 	"bootstrap": {
 		"name": "Bootstrap",
 		"url": "https://getbootstrap.com",
-		"logo": "bootstrap.svg"
+		"logo": "./bootstrap.svg"
 	},
 	"postman": {
 		"name": "Postman",
 		"url": "https://www.postman.com",
-		"logo": "postman.svg"
+		"logo": "./postman.svg"
 	},
 	"java": {
 		"name": "Java",
 		"url": "https://www.java.com",
-		"logo": "java.svg"
+		"logo": "./java.svg"
 	},
 	"mongodb": {
 		"name": "MongoDB",
 		"url": "https://www.mongodb.com",
-		"logo": "mongodb.svg"
+		"logo": "./mongodb.svg"
 	},
 	"latex": {
 		"name": "LaTeX",
 		"url": "https://www.latex-project.org",
-		"logo": "latex.svg"
+		"logo": "./latex.svg"
 	},
 	"r": {
 		"name": "R",
 		"url": "https://www.r-project.org",
-		"logo": "r.svg"
+		"logo": "./r.svg"
 	},
 	"mysql": {
 		"name": "MySQL",
 		"url": "https://www.mysql.com",
-		"logo": "mysql.svg"
+		"logo": "./mysql.svg"
 	},
 	"postgresql": {
 		"name": "PostgreSQL",
 		"url": "https://www.postgresql.org",
-		"logo": "postgresql.svg"
+		"logo": "./postgresql.svg"
 	},
 	"git": {
 		"name": "Git",
 		"url": "https://git-scm.com",
-		"logo": "git.svg"
+		"logo": "./git.svg"
 	},
 	"github": {
 		"name": "GitHub",
 		"url": "https://github.com",
-		"logo": "github.svg"
+		"logo": "./github.svg"
 	},
 	"nodejs": {
 		"name": "Node.js",
 		"url": "https://nodejs.org",
-		"logo": "nodejs.svg"
+		"logo": "./nodejs.svg"
 	},
 	"cpp": {
 		"name": "C++",
 		"url": "https://cplusplus.com",
-		"logo": "cpp.svg"
+		"logo": "./cpp.svg"
 	},
 	"c": {
 		"name": "C",
 		"url": "https://cplusplus.com",
-		"logo": "c.svg"
+		"logo": "./c.svg"
 	},
 	"cs": {
 		"name": "C#",
 		"url": "https://learn.microsoft.com/en-us/dotnet/csharp",
-		"logo": "cs.svg"
+		"logo": "./cs.svg"
 	},
 	"php": {
 		"name": "PHP",
 		"url": "https://www.php.net",
-		"logo": "php.svg"
+		"logo": "./php.svg"
 	},
 	"tensorflow": {
 		"name": "TensorFlow",
 		"url": "https://www.tensorflow.org",
-		"logo": "tensorflow.svg"
+		"logo": "./tensorflow.svg"
 	},
 	"flutterflow": {
 		"name": "FlutterFlow",
 		"url": "https://www.flutterflow.io",
-		"logo": "flutterflow.svg"
+		"logo": "./flutterflow.svg"
 	},
 	"pandas": {
 		"name": "Pandas",
 		"url": "https://pandas.pydata.org",
-		"logo": "pandas.svg"
+		"logo": "./pandas.svg"
 	},
 	"flask": {
 		"name": "Flask",
 		"url": "https://flask.palletsprojects.com",
-		"logo": "flask.svg"
+		"logo": "./flask.svg"
 	},
 	"livewire": {
 		"name": "Livewire",
 		"url": "https://livewire.laravel.com",
-		"logo": "livewire.svg"
+		"logo": "./livewire.svg"
 	},
 	"insomnia": {
 		"name": "Insomnia",
 		"url": "https://insomnia.rest",
-		"logo": "insomnia.svg"
+		"logo": "./insomnia.svg"
 	},
 	"sqlite": {
 		"name": "SQLite",
 		"url": "https://www.sqlite.org/copyright.html",
-		"logo": "sqlite.svg"
+		"logo": "./sqlite.svg"
 	},
 	"firebase": {
 		"name": "Firebase",
 		"url": "https://firebase.google.com",
-		"logo": "firebase.svg"
+		"logo": "./firebase.svg"
 	},
 	"figma": {
 		"name": "Figma",
 		"url": "https://www.figma.com",
-		"logo": "figma.svg"
+		"logo": "./figma.svg"
 	},
 	"html": {
 		"name": "HTML",
 		"url": "https://html.com",
-		"logo": "html.svg"
+		"logo": "./html.svg"
 	},
 	"css": {
 		"name": "CSS",
 		"url": "https://www.w3.org/Style/CSS/Overview.en.html",
-		"logo": "css.svg"
+		"logo": "./css.svg"
 	},
 	"ts": {
 		"name": "TypeScript",
 		"url": "https://www.typescriptlang.org",
-		"logo": "ts.svg"
+		"logo": "./ts.svg"
 	},
 	"js": {
 		"name": "JavaScript",
 		"url": "https://262.ecma-international.org/14.0",
-		"logo": "js.svg"
+		"logo": "./js.svg"
 	},
 	"laravelexcel": {
 		"name": "Laravel Excel",
 		"url": "https://laravel-excel.com",
-		"logo": "laravelexcel.svg"
+		"logo": "./laravelexcel.svg"
 	},
 	"digitalocean": {
 		"name": "Digital Ocean",
 		"url": "https://www.digitalocean.com",
-		"logo": "digitalocean.svg"
+		"logo": "./digitalocean.svg"
 	},
 	"netlify": {
 		"name": "Netlify",
 		"url": "https://www.netlify.com",
-		"logo": "netlify.svg"
+		"logo": "./netlify.svg"
 	},
 	"electron": {
 		"name": "Electron",
 		"url": "https://www.electronjs.org",
-		"logo": "electron.svg"
+		"logo": "./electron.svg"
 	},
 	"amazontextract": {
 		"name": "Amazon Textract",
 		"url": "https://aws.amazon.com/textract",
-		"logo": "amazontextract.svg"
+		"logo": "./amazontextract.svg"
 	},
 	"openai": {
 		"name": "OpenAI",
 		"url": "https://platform.openai.com/docs/models/gp#gpt-3-5-turbo",
-		"logo": "openai.svg"
+		"logo": "./openai.svg"
 	},
 	"vercel": {
 		"name": "Vercel",
 		"url": "https://vercel.com",
-		"logo": "vercel.svg"
+		"logo": "./vercel.svg"
 	},
 	"xamarin": {
 		"name": "Xamarin",
 		"url": "https://dotnet.microsoft.com/en-us/apps/xamarin/xamarin-forms",
-		"logo": "xamarin.svg"
+		"logo": "./xamarin.svg"
 	},
 	"fasttext": {
 		"name": "fastText",
 		"url": "https://fasttext.cc",
-		"logo": "fasttext.svg"
+		"logo": "./fasttext.svg"
 	},
 	"gensim": {
 		"name": "Gensim",
 		"url": "https://radimrehurek.com/gensim/index.html",
-		"logo": "gensim.svg"
+		"logo": "./gensim.svg"
 	},
 	"keras": {
 		"name": "Keras",
 		"url": "https://keras.io",
-		"logo": "keras.svg"
+		"logo": "./keras.svg"
 	},
 	"numpy": {
 		"name": "Numpy",
 		"url": "https://numpy.org",
-		"logo": "numpy.svg"
+		"logo": "./numpy.svg"
 	},
 	"jupyter": {
 		"name": "Jupyter",
 		"url": "https://jupyter.org",
-		"logo": "jupyter.svg"
+		"logo": "./jupyter.svg"
 	},
 	"sequelize": {
 		"name": "Sequelize",
 		"url": "https://sequelize.org",
-		"logo": "sequelize.svg"
+		"logo": "./sequelize.svg"
 	},
 	"chakraui": {
 		"name": "Chakra UI",
 		"url": "https://www.chakra-ui.com",
-		"logo": "chakraui.svg"
+		"logo": "./chakraui.svg"
 	},
 	"materialui": {
 		"name": "Material UI",
 		"url": "https://mui.com",
-		"logo": "materialui.svg"
+		"logo": "./materialui.svg"
 	},
 	"supabase": {
 		"name": "Supabase",
 		"url": "https://supabase.com",
-		"logo": "supabase.svg"
+		"logo": "./supabase.svg"
 	},
 	"expressjs": {
 		"name": "Express",
 		"url": "https://expressjs.com",
-		"logo": "expressjs.svg"
+		"logo": "./expressjs.svg"
 	},
 	"prisma": {
 		"name": "Prisma",
 		"url": "https://www.prisma.io",
-		"logo": "prisma.svg"
+		"logo": "./prisma.svg"
 	},
 	"nextjs": {
 		"name": "Next",
 		"url": "https://nextjs.org",
-		"logo": "nextjs.svg"
+		"logo": "./nextjs.svg"
 	},
 	"drizzle": {
 		"name": "Drizzle",
 		"url": "https://orm.drizzle.team",
-		"logo": "drizzle.svg"
+		"logo": "./drizzle.svg"
 	},
 	"jwt": {
 		"name": "JWT",
 		"url": "https://www.jwt.io",
-		"logo": "jwt.svg"
+		"logo": "./jwt.svg"
 	},
 	"drawio": {
 		"name": "draw.io",
 		"url": "https://www.drawio.com",
-		"logo": "drawio.svg"
+		"logo": "./drawio.svg"
 	},
 	"xampp": {
 		"name": "XAMPP",
 		"url": "https://www.apachefriends.org",
-		"logo": "xampp.svg"
+		"logo": "./xampp.svg"
 	}
 }

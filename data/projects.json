@@ -3,7 +3,7 @@
 		{
 			"code": "pamst",
 			"title": "PAMST",
-			"image": "/pamst.png",
+			"image": "./pamst.png",
 			"duration": {
 				"start": "Oct 2023",
 				"end": "Jun 2024"
@@ -56,7 +56,7 @@
 		{
 			"code": "mtic-ssa",
 			"title": "MTIC-SSA",
-			"image": "/mticssa.png",
+			"image": "./mticssa.png",
 			"duration": {
 				"start": "Oct 2024",
 				"end": "Done"
@@ -102,7 +102,7 @@
 		{
 			"code": "timbertrack",
 			"title": "Timbertrack",
-			"image": "/timbertrack.png",
+			"image": "./timbertrack.png",
 			"duration": {
 				"start": "Nov 2020",
 				"end": "Dec 2021"
@@ -148,7 +148,7 @@
 		{
 			"code": "quickgrade",
 			"title": "QuickGrade",
-			"image": "/quickgrade.png",
+			"image": "./quickgrade.png",
 			"duration": {
 				"start": "Apr",
 				"end": "May 2023"
@@ -194,7 +194,7 @@
 		{
 			"code": "lu-factorization-calculator",
 			"title": "Lu Factorization Calculator",
-			"image": "/lu-factorization.png",
+			"image": "./lu-factorization.png",
 			"duration": {
 				"start": "Apr",
 				"end": "May 2023"
@@ -240,7 +240,7 @@
 		{
 			"code": "chat-app",
 			"title": "Chat App",
-			"image": "/chat-app.png",
+			"image": "./chat-app.png",
 			"duration": {
 				"start": "Apr",
 				"end": "May 2022"
@@ -286,7 +286,7 @@
 		{
 			"code": "calculator-app",
 			"title": "Calculator App",
-			"image": "/no-image.svg",
+			"image": "./no-image.svg",
 			"duration": {
 				"start": "Mar 2022",
 				"end": "Done"
@@ -332,7 +332,7 @@
 		{
 			"code": "image-processing-library",
 			"title": "Image Processing Library",
-			"image": "/no-image.svg",
+			"image": "./no-image.svg",
 			"duration": {
 				"start": "August",
 				"end": "November 2022"
@@ -378,7 +378,7 @@
 		{
 			"code": "chess-app",
 			"title": "Chess App",
-			"image": "/chess-app.png",
+			"image": "./chess-app.png",
 			"duration": {
 				"start": "Dec 2020",
 				"end": "Jul 2021"
@@ -424,7 +424,7 @@
 		{
 			"code": "cpu-scheduling-visualizer",
 			"title": "CPU Scheduling Visualizer",
-			"image": "/cpu-scheduling.png",
+			"image": "./cpu-scheduling.png",
 			"duration": {
 				"start": "Jan 2022",
 				"end": "Done"
@@ -470,7 +470,7 @@
 		{
 			"code": "text-classicifaction-of-climate-change-tweets",
 			"title": "Text Classification for Climate Change",
-			"image": "/no-image.svg",
+			"image": "./no-image.svg",
 			"duration": {
 				"start": "Aug 2022",
 				"end": "Jun 2023"
@@ -526,7 +526,7 @@
 		{
 			"code": "tcb-mstsc-dms",
 			"title": "TCB-MSTSC-DMS",
-			"image": "/tcb-mstsc-dms.png",
+			"image": "./tcb-mstsc-dms.png",
 			"duration": {
 				"start": "Jan",
 				"end": "May 2025"
@@ -582,7 +582,7 @@
 		{
 			"code": "agreflow",
 			"title": "Agreflow",
-			"image": "/no-image.svg",
+			"image": "./no-image.svg",
 			"duration": {
 				"start": "June 2025",
 				"end": "Present"
