@@ -1,0 +1,638 @@
+{
+	"projects": [
+		{
+			"code": "pamst",
+			"title": "PAMST",
+			"image": "/pamst.png",
+			"duration": {
+				"start": "Oct 2023",
+				"end": "Jun 2024"
+			},
+			"completed": true,
+			"summary": "Web application designed to help project managers simulate different decisions during a project, given a project timeline and its resources.",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "PAMST is an acronym that stands for \"Project Account Management Simulation Tool\", which is a tool designed for project managers to simulate different plans of a project and gives them the freedom to tweak different features to acquire ideal outcomes and insights"
+				},
+				{
+					"heading": "Contribution",
+					"description": "Developed Document Versioning, Task Hierarchy, Daily Emails, CRUD for Tasks, Resources & Financials, and Batch Processing."
+				},
+				{
+					"heading": "Discussion",
+					"description": "This is the first freelance job and project I've worked on post graduation back in late 2023. This is the first project that taught me the importance of database design. Besides that, this project also gave me the first opportunity to work with people that I don't know"
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": "https://pamstph.com"
+				},
+				{
+					"type": "Github",
+					"url": null
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["Web", "Fullstack"],
+			"technologies": [
+				"php",
+				"laravel",
+				"livewire",
+				"digitalocean",
+				"mysql",
+				"laravelexcel",
+				"bootstrap"
+			]
+		},
+		{
+			"code": "mtic-ssa",
+			"title": "MTIC-SSA",
+			"image": "/mticssa.png",
+			"duration": {
+				"start": "Oct 2024",
+				"end": "Done"
+			},
+			"completed": true,
+			"summary": "Single Page application designed for medtech interns to check their shifting schedules with ease.",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "Assists medical interns to know their shifting schedules easily and provide them insights of previous, current, and future dates. Web application designed for interns to easily check their shifting schedules and provide them insights. Provides interns insights, such as: Immediately knowing their shifts, knowing who their shiftmates are, viewing a summary of all shifts, and checking future or previous shift summaries"
+				},
+				{
+					"heading": "Contribution",
+					"description": "Developed the entire Single Page application."
+				},
+
+				{
+					"heading": "Discussion",
+					"description": "This is a project and a proof of concept to make shifting schedules more accessible to medical interns, or medical staff themselves. Not only can this be for interns, but for any domain of expertise"
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": "https://mticssa.netlify.app"
+				},
+				{
+					"type": "GitHub",
+					"url": null
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["Web", "SPA"],
+			"technologies": ["js", "react", "tailwindcss", "netlify"]
+		},
+		{
+			"code": "timbertrack",
+			"title": "Timbertrack",
+			"image": "/timbertrack.png",
+			"duration": {
+				"start": "Nov 2020",
+				"end": "Dec 2021"
+			},
+			"completed": true,
+			"summary": "Inventory Management System for the local company \"Tony's Lumber and Construction Supply\".",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "A Solution developed for Tony's Lumber and Construction Supply to stray away from pen and paper inventory management. It features the requested features sales dashboard, stock management, and subcategorization of products. Implements user roles, with different roles having different permissions."
+				},
+				{
+					"heading": "Contribution",
+					"description": "Implemented CRUD functionalities, and pages with different Inventory Management System features. Developed: Sales Dashboard, CRUD for most resources, and Sub-categorization for products. Developed most of the backend."
+				},
+
+				{
+					"heading": "Discussion",
+					"description": "This a project I joined during "
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": null
+				},
+				{
+					"type": "GitHub",
+					"url": "https://github.com/w3barsi/timbertrack"
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["Web"],
+			"technologies": ["php", "laravel", "livewire", "mysql"]
+		},
+		{
+			"code": "quickgrade",
+			"title": "QuickGrade",
+			"image": "/quickgrade.png",
+			"duration": {
+				"start": "Apr",
+				"end": "May 2023"
+			},
+			"completed": true,
+			"summary": "Web Application Tool designed to help teachers automatically check exams.",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "Web Application designed to help teachers properly check different types of exams with the help of Image Processing (OCR) and AI (LLMs). Properly checks fill in the blank, enumeration, multiple choice, and essay type questions."
+				},
+				{
+					"heading": "Contribution",
+					"description": "Found a solution to properly check multiple choice exams. Contributed on the backend by using Amazon Textract to scan handwritten exams, to extract questions and its answers, then using this info for Prompt Engineering to pass to GPT-3.5 Turbo to properly check & score the given exam."
+				},
+
+				{
+					"heading": "Discussion",
+					"description": "This a project I joined during my time in Symph as an intern. This was also one of my first projects to work on to integrate with AI and OCR technologies and using both together"
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": "https://quickgradeai.flutterflow.app"
+				},
+				{
+					"type": "GitHub",
+					"url": null
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["SPA", "Web", "AI", "Computer Vision"],
+			"technologies": ["python", "flutterflow", "flask", "amazontextract", "openai"]
+		},
+		{
+			"code": "lu-factorization-calculator",
+			"title": "Lu Factorization Calculator",
+			"image": "/lu-factorization.png",
+			"duration": {
+				"start": "Apr",
+				"end": "May 2023"
+			},
+			"completed": true,
+			"summary": "Single Page Application that solves the L and U matrices for a given matrix.",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "Solves the L and U matrices for any 2x2, 3x3, or 4x4 dimension matrix"
+				},
+				{
+					"heading": "Contribution",
+					"description": "Implemented the solution in C"
+				},
+
+				{
+					"heading": "Discussion",
+					"description": "This is the final group project for a Math Elective course Numerical Analysis. I implemented the solver in C and then the is converted to JS and deployed in Vercel groupmates. The solution for finding the determinant was implemented by my groupmates."
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": "https://lu-factorization-web-app.vercel.app"
+				},
+				{
+					"type": "GitHub",
+					"url": null
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["Web", "Math", "SPA"],
+			"technologies": ["js", "bootstrap", "vercel"]
+		},
+		{
+			"code": "chat-app",
+			"title": "Chat App",
+			"image": "/chat-app.png",
+			"duration": {
+				"start": "Apr",
+				"end": "May 2022"
+			},
+			"completed": true,
+			"summary": "Mobile Chat Application that implements the basic requirements for a Chat App.",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "Basic Chat Application where Users are able to sign up and have their account verified in order to login and use the app. Users are able to search for other users by searching the name or email of the user that they want to add and chat with."
+				},
+				{
+					"heading": "Contribution",
+					"description": "Search and converse with other users by searching their name or email. Implemented: Splash Screen, Conversation page, User Search, and Authentication & User Account Management & Message Storage through Firebase integration"
+				},
+
+				{
+					"heading": "Discussion",
+					"description": "This is the final project output required in my Mobile Development course."
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": null
+				},
+				{
+					"type": "GitHub",
+					"url": "https://github.com/z3n5hif7/ChapAppLu"
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["Mobile"],
+			"technologies": ["xamarin", "cs", "firebase"]
+		},
+		{
+			"code": "calculator-app",
+			"title": "Calculator App",
+			"image": "/no-image.svg",
+			"duration": {
+				"start": "Mar 2022",
+				"end": "Done"
+			},
+			"completed": true,
+			"summary": "Mobile Calculator Application that features basic arithmetic.",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "Calculator application that handles simple arithmetic, namely addition, subtraction, multiplication, and division"
+				},
+				{
+					"heading": "Contribution",
+					"description": "Implemented simple arithmetic operations, and basic error handling (Catching typical errors such as dividing by zero, reaching infinity, etc.)."
+				},
+
+				{
+					"heading": "Discussion",
+					"description": "This was a midterm exam output for my Mobile Development Course."
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": null
+				},
+				{
+					"type": "GitHub",
+					"url": "https://github.com/z3n5hif7/Calculator-App"
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["Mobile"],
+			"technologies": ["xamarin", "cs"]
+		},
+		{
+			"code": "image-processing-library",
+			"title": "Image Processing Library",
+			"image": "/no-image.svg",
+			"duration": {
+				"start": "August",
+				"end": "November 2022"
+			},
+			"completed": true,
+			"summary": "Collection of Image Processing Techniques done from scratch.",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "Compiled Image processing activities that demonstrate how different image processing techniques are done."
+				},
+				{
+					"heading": "Contribution",
+					"description": "Developed image resize, image recolor, image rotate, shape recognition, and letter classification from scratch"
+				},
+
+				{
+					"heading": "Discussion",
+					"description": "This is an activity compilation of my Intelligent Systems / Computer Vision course in college."
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": null
+				},
+				{
+					"type": "GitHub",
+					"url": "https://github.com/z3n5hif7/cs-4103-intelligent-systems"
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["Console"],
+			"technologies": ["java"]
+		},
+		{
+			"code": "chess-app",
+			"title": "Chess App",
+			"image": "/chess-app.png",
+			"duration": {
+				"start": "Dec 2020",
+				"end": "Jul 2021"
+			},
+			"completed": true,
+			"summary": "Simple Java application to demonstrate Chess logic.",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "Basic chess piece movement demonstration with all chess logic and rules"
+				},
+				{
+					"heading": "Contribution",
+					"description": "Implemented most of the chess rules, such as pawn & piece movement, castling, en passant, promotion, check, and checkmate. Also implemented basic UI features such as highlighting the squares in the chess board where the pawn or piece is able to legally move to."
+				},
+
+				{
+					"heading": "Discussion",
+					"description": "This was the final project submission for my Object Oriented Programming course in college."
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": null
+				},
+				{
+					"type": "GitHub",
+					"url": "https://github.com/robinehoodie/OOP"
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["Console", "Game"],
+			"technologies": ["java"]
+		},
+		{
+			"code": "cpu-scheduling-visualizer",
+			"title": "CPU Scheduling Visualizer",
+			"image": "/cpu-scheduling.png",
+			"duration": {
+				"start": "Jan 2022",
+				"end": "Done"
+			},
+			"completed": true,
+			"summary": "Console application that demonstrates CPU scheduling algorithms.",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "Visualizes and simulates CPU Scheduling Algorithms through a GANTT Chart given the number of processes, and the time slice/quantum for each process. Features CPU Scheduling Algorithms such as First Come First Serve (FCFS), Nonpreemptive Shortest Job First (NSJF), Preemptive Shortest Job First (PSJF), Round Robin, and Priority Scheduling."
+				},
+				{
+					"heading": "Contribution",
+					"description": "Implemented the entire solution."
+				},
+
+				{
+					"heading": "Discussion",
+					"description": "This was the final project for my Operating Systems course back in college"
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": null
+				},
+				{
+					"type": "GitHub",
+					"url": "https://github.com/z3n5hif7/cpu-scheduling-visualizer"
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["Console"],
+			"technologies": ["c"]
+		},
+		{
+			"code": "text-classicifaction-of-climate-change-tweets",
+			"title": "Text Classification for Climate Change",
+			"image": "/no-image.svg",
+			"duration": {
+				"start": "Aug 2022",
+				"end": "Jun 2023"
+			},
+			"completed": true,
+			"summary": "Computer Science Thesis Manuscript Text Classification Project.",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "Text Classification of Climate Change Tweets using Aritifical Neural Networks, Fasttext Word Embeddings, and Latent Dirichlet Allocation"
+				},
+				{
+					"heading": "Contribution",
+					"description": "Wrote the thesis manuscript with LaTeX, and the documentation & implementation of the thesis"
+				},
+
+				{
+					"heading": "Discussion",
+					"description": "The final task of the Computer Science undergraduate college program."
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": null
+				},
+				{
+					"type": "GitHub",
+					"url": null
+				},
+				{
+					"type": "IEEE",
+					"url": "https://ieeexplore.ieee.org/document/10201782"
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["Research", "ML", "NLP"],
+			"technologies": [
+				"latex",
+				"python",
+				"jupyter",
+				"pandas",
+				"numpy",
+				"fasttext",
+				"gensim",
+				"keras",
+				"tensorflow"
+			]
+		},
+		{
+			"code": "tcb-mstsc-dms",
+			"title": "TCB-MSTSC-DMS",
+			"image": "/tcb-mstsc-dms.png",
+			"duration": {
+				"start": "Jan",
+				"end": "May 2025"
+			},
+			"completed": true,
+			"summary": "Document Management System for \"Thor Custom's Brokerage\" and \"Mighty Star Trucking Services Company\".",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "Document Management System that helped the business instantly organize and create statement of accounts and billing statements, and easily access document backlogs."
+				},
+				{
+					"heading": "Contribution",
+					"description": "Organized the company's document backlogs and organized them into one organized folder structure. Developed the entire system. Implemented user authentication and authorization, document pdf generation, CRUD for storing container van numbers, customers, statement of accounts, billing statements, and affixing e-signatures."
+				},
+				{
+					"heading": "Discussion",
+					"description": "The first fullstack application I've developed on my own for a local company. This project overall helped me see my strengths and weaknesses as a Software Developer wherein I saw the parts that I did great and where I could improve."
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": null
+				},
+				{
+					"type": "GitHub",
+					"url": "https://github.com/abillylu/tcb-mstsc-dms"
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": null
+				}
+			],
+			"tags": ["Desktop"],
+			"technologies": [
+				"python",
+				"ts",
+				"electron",
+				"react",
+				"materialui",
+				"expressjs",
+				"prisma",
+				"postgresql",
+				"supabase",
+				"vercel"
+			]
+		},
+		{
+			"code": "agreflow",
+			"title": "Agreflow",
+			"image": "/no-image.svg",
+			"duration": {
+				"start": "June 2025",
+				"end": "Present"
+			},
+			"completed": false,
+			"summary": "Digital Transformation solution for local probions company \"Agresource Inc.\"",
+			"descriptions": [
+				{
+					"heading": "Description",
+					"description": "Digital Transofation solution for local probions company Agresource Inc."
+				},
+				{
+					"heading": "Contribution",
+					"description": "Organized the company's document backlogs and organized them into one organized folder structure. Developed the entire system. Implemented user authentication and authorization, document pdf generation, CRUD for storing container van numbers, customers, statement of accounts, billing statements, and affixing e-signatures."
+				},
+				{
+					"heading": "Discussion",
+					"description": "The final project before I go to the professional world."
+				}
+			],
+			"links": [
+				{
+					"type": "Website",
+					"url": null
+				},
+				{
+					"type": "GitHub",
+					"url": null
+				},
+				{
+					"type": "IEEE",
+					"url": null
+				},
+				{
+					"type": "WIP",
+					"url": "/projects"
+				}
+			],
+			"tags": ["Web", "Fullstack"],
+			"technologies": [
+				"ts",
+				"nextjs",
+				"react",
+				"tailwindcss",
+				"shadcn",
+				"postgresql",
+				"drizzle",
+				"betterauth",
+				"cloudsql"
+			]
+		}
+	]
+}

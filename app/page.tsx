@@ -1,103 +1,212 @@
+"use client";
+
 import Image from "next/image";
+import { TechCarousel } from "@/components/tech-carousel";
+
+import { Card, CardContent } from "@/components/ui/card";
+
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+
+import { Badge } from "@/components/ui/badge";
+
+const techStack: string[] = [
+	"amazontextract",
+	"betterauth",
+	"bootstrap",
+	"c",
+	"chakraui",
+	"cloudsql",
+	"cpp",
+	"cs",
+	"css",
+	"digitalocean",
+	"drawio",
+	"drizzle",
+	"electron",
+	"expressjs",
+	"fasttext",
+	"figma",
+	"firebase",
+	"flask",
+	"flutterflow",
+	"gensim",
+	"git",
+	"html",
+	"insomnia",
+	"java",
+	"js",
+	"jupyter",
+	"jwt",
+	"keras",
+	"laravel",
+	"laravelexcel",
+	"latex",
+	"livewire",
+	"materialui",
+	"mongodb",
+	"mysql",
+	"netlify",
+	"nextjs",
+	"nodejs",
+	"numpy",
+	"openai",
+	"pandas",
+	"php",
+	"postgresql",
+	"postman",
+	"prisma",
+	"python",
+	"r",
+	"react",
+	"sequelize",
+	"shadcn",
+	"sqlite",
+	"supabase",
+	"tailwindcss",
+	"tensorflow",
+	"ts",
+	"vercel",
+	"vite",
+	"vue",
+	"xamarin",
+	"xampp",
+];
+
+import Link from "next/link";
+import { CircleQuestionMark, Cog, Phone } from "lucide-react";
+
+const relatedLinks = [
+	{
+		icon: "github.svg",
+		name: "GitHub",
+		link: "https://github.com/abillylu",
+	},
+	{
+		icon: "linkedin.svg",
+		name: "LinkedIn",
+		link: "https://www.linkedin.com/in/billy-a-lu",
+	},
+	{
+		icon: "gmail.svg",
+		name: "GMail (a.billy.lu@gmail.com)",
+		link: "mailto:abillylu@gmail.com",
+	},
+	{
+		icon: "viber.svg",
+		name: "Viber (+63 999 366 5493)",
+		link: "viber://contact?number=%2B639993665493",
+	},
+	{
+		icon: "cv.svg",
+		name: "CV",
+		link: "/CV.pdf",
+	},
+	{
+		icon: "diploma.svg",
+		name: "Diploma",
+		link: "Diploma.png",
+	},
+];
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+	const shuffle = (arr: string[]) => {
+		for (let i = arr.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			const k = arr[i];
+			arr[i] = arr[j];
+			arr[j] = k;
+		}
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+		return arr;
+	};
+
+	return (
+		<div className="flex flex-col items-center">
+			<div className="mb-4">
+				<div className="mb-4">
+					<Card className="opacity-90 p-2 text-justify">
+						<h1 className="font-sans p-10 scroll-m-20 text-center text-6xl font-extrabold tracking-tight text-balance fill-cyan-500 drop-shadow-lg drop-shadow-cyan-500/20">
+							<span className="bg-gradient-to-r from-blue-300 to-teal-300 via-purple-300 bg-clip-text text-transparent">
+								BILLY A. LU: SOFTWARE DEVELOPER🗲
+							</span>
+						</h1>
+					</Card>
+				</div>
+				<div className="mb-4">
+					<Card className="opacity-75 text-justify p-0">
+						<Badge className="relative">
+							<CircleQuestionMark /> About
+						</Badge>
+
+						<p className="font-mono text-md font-weight-200 p-2">
+							A Computer Science graduate with 2 years of experience in Software
+							Development as a Freelancer, who has the knowledge and skills in{" "}
+							<span className="text-[hsl(200,100%,60%)]">Fullstack Development</span>,{" "}
+							<span className="bg-gradient-to-r from-pink-300 to-teal-300 via-purple-300 bg-clip-text text-transparent">
+								Data Science
+							</span>
+							📊,{" "}
+							<span className="bg-gradient-to-r from-violet-300 to-blue-300 via-gray-300 bg-clip-text text-transparent">
+								Machine Learning
+							</span>
+							🤖, and{" "}
+							<span className="bg-gradient-to-r from-yellow-300 to-green-300 bg-clip-text text-transparent">
+								Aritifial Intelligence
+							</span>
+							✨. Always committed to master new technologies and paradigms, in order
+							to consistently adapt and contribute to the dynamic fields of
+							Information Technology and Artificial Intelligence.
+						</p>
+					</Card>
+				</div>
+				<div className="mb-4">
+					<Card className="opacity-75 p-0">
+						<Badge className="relative">
+							<Cog /> Technologies Used
+						</Badge>
+						<CardContent>
+							<TechCarousel techStack={shuffle(techStack)} />
+						</CardContent>
+					</Card>
+				</div>
+				<div className="mb-4">
+					<Card className="opacity-75 p-0">
+						<Badge className="relative">
+							<Phone /> Contact
+						</Badge>
+						<CardContent>
+							<div className="flex items-center">
+								{relatedLinks.map((link) => {
+									return (
+										<div key={link.name}>
+											<Tooltip>
+												<TooltipTrigger asChild>
+													<Link
+														href={link.link}
+														target="_blank"
+														rel="noopener noreferrer"
+													>
+														<Image
+															className="m-2 w-[50] h-[50]"
+															height={50}
+															width={50}
+															src={link.icon}
+															alt={link.name}
+														/>
+													</Link>
+												</TooltipTrigger>
+												<TooltipContent>
+													<p>{link.name}</p>
+												</TooltipContent>
+											</Tooltip>
+										</div>
+									);
+								})}
+							</div>
+						</CardContent>
+					</Card>
+				</div>
+			</div>
+		</div>
+	);
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-0.928 6.267 60.501 67.001" xmlns="http://www.w3.org/2000/svg" class="fill-current h-8 sm:h-12 lg:h-16 text-gray-800 mx-auto">
+  <g transform="matrix(1.592574, 0, 0, 1.592574, -27.200361, 18.879774)" style="transform-origin: 67.2003px 21.1202px;">
+    <g stroke="null">
+      <g transform="matrix(.042944 0 0 .042494 183.61 31.51)" stroke="null">
+        <rect x="-3295.6" y="-724.08" width="853.74" height="959.16" fill="none"/>
+        <g transform="matrix(1.0196 0 0 1.0304 -16.522 -18.498)">
+          <g transform="matrix(1 0 .64752 1 -27.033 0)">
+            <path d="m-2692.3 238.88 218.94-58.05 276.92-863.6h-201.25l-294.61 921.65z" fill="#f59a02" stroke="null"/>
+          </g>
+          <g transform="matrix(1 0 .64752 1 -27.033 0)">
+            <path d="m-2692.3 238.88 218.94-58.05 113.13-352.81-178.65-69.119-153.43 479.98z" fill="url(#a)" stroke="null"/>
+          </g>
+          <path d="m-3208.3 184.8 181.7 58.27 296.87-925.84h-201.25l-277.32 867.57z" fill="#f59a02"/>
+          <path d="m-3130.2 209.86 103.54 33.21 296.87-925.84h-117.67l-282.74 892.63z" fill="#f69e0b"/>
+          <path d="m-3208.3 184.8 181.7 58.27-137.96-195.12-43.745 136.86z" fill="#f4a536"/>
+          <path d="m-2989.2-500.65 149.97 154.08 109.5-336.21h-201.25l-58.216 182.12z" fill="url(#b)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
