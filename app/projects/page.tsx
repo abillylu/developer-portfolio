@@ -1,7 +1,6 @@
 import ProjectCard from "@/components/project-card";
 
-export const ProjectsPage = () => {
+export default function ProjectsPage() {
 	return <ProjectCard />;
-};
+}
 
-export default ProjectsPage;
