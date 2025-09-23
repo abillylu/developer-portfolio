@@ -25,8 +25,6 @@ const experienceTimeline = [
 	},
 ];
 
-export const ExperiencePage = () => {
+export default function ExperiencePage() {
 	return <MainTimeline timeline={experienceTimeline} />;
-};
-
-export default ExperiencePage;
+}

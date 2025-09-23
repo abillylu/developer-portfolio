@@ -37,8 +37,6 @@ const educationTimeline = [
 	},
 ];
 
-export const EducationPage = () => {
+export default function EducationPage() {
 	return <MainTimeline timeline={educationTimeline} />;
-};
-
-export default EducationPage;
+}
