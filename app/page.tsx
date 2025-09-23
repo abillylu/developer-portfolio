@@ -190,7 +190,7 @@ export default function Home() {
 															className="m-2 w-[50] h-[50]"
 															height={50}
 															width={50}
-															src={`.${link.icon}`}
+															src={link.icon}
 															alt={link.name}
 														/>
 													</Link>
