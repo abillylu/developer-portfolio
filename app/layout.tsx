@@ -27,7 +27,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased transition-colors duration-1000 min-h-screen bg-[url('/background.svg')] bg-cover bg-center bg-no-repeat`}
+				className={`${geistSans.variable} ${geistMono.variable} antialiased transition-colors duration-1000`}
 			>
 				<ThemeProvider
 					attribute="class"

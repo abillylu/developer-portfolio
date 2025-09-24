@@ -122,5 +122,10 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+    background-image: url('/background.svg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 100vh; 
   }
 }
