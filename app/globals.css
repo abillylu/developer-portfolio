@@ -122,7 +122,7 @@ body {
   }
   body {
     @apply bg-background text-foreground;
-    background-image: url('./background.svg');
+    background-image: url('../images/background.svg');
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
