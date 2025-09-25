@@ -21,11 +21,6 @@ export const Navbar = () => {
 						<Link href={"/experience"}>Experience</Link>
 					</MenubarTrigger>
 				</MenubarMenu>
-				<MenubarMenu>
-					<MenubarTrigger>
-						<Link href={"/education"}>Education</Link>
-					</MenubarTrigger>
-				</MenubarMenu>
 			</Menubar>
 		</div>
 	);
