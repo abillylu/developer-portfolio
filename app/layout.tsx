@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -35,12 +36,19 @@ export default function RootLayout({
 					enableSystem
 					disableTransitionOnChange
 				>
-					<nav className="w-full navbar relative flex flex-col items-center justify-between py-4">
-						<Navbar />
-					</nav>
 					<div className="py-8 md:py-16 lg:py-24">
 						<div className="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
-							{children}
+							<div className="mb-10 md:text-center">
+								<nav className="w-auto mb-10 flex">
+									<div>
+										<Navbar />
+									</div>
+									<div className="ml-auto">
+										<ThemeToggle />
+									</div>
+								</nav>
+								{children}
+							</div>
 						</div>
 					</div>
 				</ThemeProvider>

@@ -109,103 +109,100 @@ const relatedLinks = [
 ];
 
 export default function Home() {
-	const shuffle = (arr: string[]) => {
-		for (let i = arr.length - 1; i > 0; i--) {
-			const j = Math.floor(Math.random() * (i + 1));
-			const k = arr[i];
-			arr[i] = arr[j];
-			arr[j] = k;
-		}
-
-		return arr;
-	};
+	// const shuffle = (arr: string[]) => {
+	// 	for (let i = arr.length - 1; i > 0; i--) {
+	// 		const j = Math.floor(Math.random() * (i + 1));
+	// 		const k = arr[i];
+	// 		arr[i] = arr[j];
+	// 		arr[j] = k;
+	// 	}
+	// 	return arr;
+	// };
 
 	return (
-		<div className="flex flex-col items-center">
+		<div className="w-auto overflow-hidden">
 			<div className="mb-4">
-				<div className="mb-4">
-					<Card className="opacity-90 p-2 text-justify">
-						<h1 className="font-sans p-10 scroll-m-20 text-center text-6xl font-extrabold tracking-tight text-balance fill-cyan-500 drop-shadow-lg drop-shadow-cyan-500/20">
-							<span className="bg-gradient-to-r from-blue-300 to-teal-300 via-purple-300 bg-clip-text text-transparent">
-								BILLY A. LU: SOFTWARE DEVELOPER🗲
-							</span>
-						</h1>
-					</Card>
-				</div>
-				<div className="mb-4">
-					<Card className="opacity-75 text-justify p-0">
-						<Badge className="relative">
-							<CircleQuestionMark /> About
-						</Badge>
+				<Card className="opacity-90 p-2 text-justify">
+					<p className="font-sans p-10 scroll-m-20 text-4xl md:text-6xl text-center font-extrabold tracking-tight text-balance fill-cyan-500 drop-shadow-lg drop-shadow-cyan-500/20">
+						<span className="bg-gradient-to-r from-blue-300 to-teal-300 via-purple-300 bg-clip-text text-transparent">
+							BILLY A. LU: SOFTWARE DEVELOPER🗲
+						</span>
+					</p>
+				</Card>
+			</div>
+			<div className="mb-4">
+				<Card className="opacity-75 text-justify p-0">
+					<Badge>
+						<CircleQuestionMark /> About
+					</Badge>
 
-						<p className="font-mono text-md font-weight-200 p-2">
-							A Computer Science graduate with 2 years of experience in Software
-							Development as a Freelancer, who has the knowledge and skills in{" "}
-							<span className="text-[hsl(200,100%,60%)]">Fullstack Development</span>,{" "}
-							<span className="bg-gradient-to-r from-pink-300 to-teal-300 via-purple-300 bg-clip-text text-transparent">
-								Data Science
-							</span>
-							📊,{" "}
-							<span className="bg-gradient-to-r from-violet-300 to-blue-300 via-gray-300 bg-clip-text text-transparent">
-								Machine Learning
-							</span>
-							🤖, and{" "}
-							<span className="bg-gradient-to-r from-yellow-300 to-green-300 bg-clip-text text-transparent">
-								Aritifial Intelligence
-							</span>
-							✨. Always committed to master new technologies and paradigms, in order
-							to consistently adapt and contribute to the dynamic fields of
-							Information Technology and Artificial Intelligence.
-						</p>
-					</Card>
-				</div>
-				<div className="mb-4">
-					<Card className="opacity-75 p-0">
-						<Badge className="relative">
-							<Cog /> Technologies Used
-						</Badge>
-						<CardContent>
-							<TechCarousel techStack={shuffle(techStack)} />
-						</CardContent>
-					</Card>
-				</div>
-				<div className="mb-4">
-					<Card className="opacity-75 p-0">
-						<Badge className="relative">
-							<Phone /> Contact
-						</Badge>
-						<CardContent>
-							<div className="flex items-center">
-								{relatedLinks.map((link) => {
-									return (
-										<div key={link.name}>
-											<Tooltip>
-												<TooltipTrigger asChild>
-													<Link
-														href={link.link}
-														target="_blank"
-														rel="noopener noreferrer"
-													>
-														<Image
-															className="m-2 w-[50] h-[50]"
-															height={50}
-															width={50}
-															src={link.icon}
-															alt={link.name}
-														/>
-													</Link>
-												</TooltipTrigger>
-												<TooltipContent>
-													<p>{link.name}</p>
-												</TooltipContent>
-											</Tooltip>
-										</div>
-									);
-								})}
-							</div>
-						</CardContent>
-					</Card>
-				</div>
+					<p className="text-1xl font-mono text-md font-weight-200 p-2">
+						A Computer Science graduate with 2 years of experience in Software
+						Development as a Freelancer, who has the knowledge and skills in{" "}
+						<span className="text-[hsl(200,100%,60%)]">Fullstack Development</span>,{" "}
+						<span className="bg-gradient-to-r from-pink-300 to-teal-300 via-purple-300 bg-clip-text text-transparent">
+							Data Science
+						</span>
+						📊,{" "}
+						<span className="bg-gradient-to-r from-violet-300 to-blue-300 via-gray-300 bg-clip-text text-transparent">
+							Machine Learning
+						</span>
+						🤖, and{" "}
+						<span className="bg-gradient-to-r from-yellow-300 to-green-300 bg-clip-text text-transparent">
+							Aritifial Intelligence
+						</span>
+						✨. Always committed to master new technologies and paradigms, in order to
+						consistently adapt and contribute to the dynamic fields of Information
+						Technology and Artificial Intelligence.
+					</p>
+				</Card>
+			</div>
+			<div className="mb-4">
+				<Card className="opacity-75 p-0">
+					<Badge>
+						<Cog /> Technologies Used
+					</Badge>
+					<CardContent>
+						<TechCarousel techStack={techStack} />
+					</CardContent>
+				</Card>
+			</div>
+			<div className="mb-4">
+				<Card className="opacity-75 p-0">
+					<Badge>
+						<Phone /> Contact
+					</Badge>
+					<CardContent>
+						<div className="flex items-center flex-wrap">
+							{relatedLinks.map((link) => {
+								return (
+									<div key={link.name}>
+										<Tooltip>
+											<TooltipTrigger asChild>
+												<Link
+													href={link.link}
+													target="_blank"
+													rel="noopener noreferrer"
+												>
+													<Image
+														className="m-2 w-[50] h-[50]"
+														height={50}
+														width={50}
+														src={link.icon}
+														alt={link.name}
+													/>
+												</Link>
+											</TooltipTrigger>
+											<TooltipContent>
+												<p>{link.name}</p>
+											</TooltipContent>
+										</Tooltip>
+									</div>
+								);
+							})}
+						</div>
+					</CardContent>
+				</Card>
 			</div>
 		</div>
 	);
