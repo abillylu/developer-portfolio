@@ -1,7 +1,3 @@
-"use client";
-
-import { useState, useEffect } from "react";
-
 import {
 	Timeline,
 	TimelineDot,
@@ -28,64 +24,31 @@ interface ContentTimeline {
 	description: string;
 }
 
-export const MainTimeline = ({ timeline }: { timeline: ContentTimeline[] }) => {
-	let getActiveBreakpoint = () => "xl";
+type Position = "left" | "right" | null | undefined;
 
-	const [breakpoint, setBreakpoint] = useState(getActiveBreakpoint());
-
-	const handleResize = () => {
-		setBreakpoint(getActiveBreakpoint());
-	};
-
-	useEffect(() => {
-		const testWindow = window;
-
-		testWindow.addEventListener("resize", handleResize);
-
-		getActiveBreakpoint = () => {
-			if (testWindow.matchMedia("(min-width: 1280px)").matches) {
-				return "xl";
-			} else if (testWindow.matchMedia("(min-width: 1024px)").matches) {
-				return "lg";
-			} else if (testWindow.matchMedia("(min-width: 768px)").matches) {
-				return "md";
-			} else if (testWindow.matchMedia("(min-width: 640px)").matches) {
-				return "sm";
-			} else {
-				return "default";
-			}
-		};
-		return () => {
-			testWindow.removeEventListener("resize", handleResize);
-		};
-	}, []);
-
+export const MainTimeline = ({
+	timeline,
+	position,
+	heading,
+}: {
+	timeline: ContentTimeline[];
+	position: Position;
+	heading: string;
+}) => {
 	return (
 		<div>
-			<Timeline
-				positions={
-					breakpoint == "md" ||
-					breakpoint == "sm" ||
-					breakpoint == "default" ||
-					breakpoint == "lg"
-						? "left"
-						: "center"
-				}
-			>
+			{position == "right" ? (
+				<div className="flex">
+					<p className="md:ml-auto p-3 text-3xl">{heading}</p>
+				</div>
+			) : (
+				<p className="p-3 text-3xl">{heading}</p>
+			)}
+			<Timeline positions={position}>
 				{timeline.map((education: ContentTimeline, index: number) => {
-					let side: "left" | "right" = index % 2 == 0 ? "left" : "right";
-					if (
-						breakpoint == "md" ||
-						breakpoint == "sm" ||
-						breakpoint == "default" ||
-						breakpoint == "lg"
-					) {
-						side = "right";
-					}
-
 					return (
 						<TimelineItem status="default" key={education.school}>
-							<TimelineHeading side={side}>
+							<TimelineHeading side={position == "right" ? "left" : "right"}>
 								{education.duration.start} - {education.duration.end}
 							</TimelineHeading>
 							{index || education.duration.end !== "Present" ? (
@@ -99,8 +62,11 @@ export const MainTimeline = ({ timeline }: { timeline: ContentTimeline[] }) => {
 									<TimelineLine />
 								</>
 							)}
-							<TimelineContent side={side}>
-								<Card className="w-120 p-4 opacity-75 relative flex flex-col justify-between overflow-hidden rounded-md border hover:shadow-md">
+							<TimelineContent
+								side={position == "right" ? "left" : "right"}
+								className="w-full"
+							>
+								<Card className="p-4 opacity-75 overflow-hidden">
 									<div className="flex items-center">
 										<Image
 											src={education.logo}
@@ -108,7 +74,7 @@ export const MainTimeline = ({ timeline }: { timeline: ContentTimeline[] }) => {
 											height={100}
 											alt={education.school}
 										/>
-										<h1 className="px-2 text-lg">{education.school}</h1>
+										<p className="px-2 text-lg">{education.school}</p>
 										{education.link && (
 											<Link
 												href={education.link}
@@ -120,12 +86,14 @@ export const MainTimeline = ({ timeline }: { timeline: ContentTimeline[] }) => {
 										)}
 									</div>
 									<CardHeader>
-										<CardTitle>{education.program}</CardTitle>
+										<CardTitle className="text-left">
+											{education.program}
+										</CardTitle>
 									</CardHeader>
 									<CardContent>
 										{/* <p className="text-justify">{education.description}</p> */}
 										{/* <p className="text-justify w-120"> */}
-										<p className="text-justify">{education.description}</p>
+										<p>{education.description}</p>
 									</CardContent>
 									<CardFooter></CardFooter>
 								</Card>
