@@ -47,8 +47,8 @@ export default function RootLayout({
 										<ThemeToggle />
 									</div>
 								</nav>
-								{children}
 							</div>
+							{children}
 						</div>
 					</div>
 				</ThemeProvider>

@@ -99,22 +99,26 @@ type TechnologyKeys = keyof Technologies;
 
 export const ProjectCard = () => {
 	return (
-		<div className="sm:grid sm:grid-cols-2 sm:grid-rows-3 sm:gap-x-6 sm:gap-y-14 sm:space-y-0 md:grid-cols-3 md:grid-rows-2 lg:gap-x-6">
+		<div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 sm:gap-10 md:gap-12 lg:gap-14">
 			{projects["projects"].map((project: Project, index: number) => {
 				return (
 					<Card key={index} className="opacity-75 overflow-hidden">
 						<CardContent>
-							<div className="flex justify-center overflow-hidden">
+							<div className="flex justify-center">
 								<Image
 									priority
 									height={256}
 									width={256}
 									src={project.image}
 									alt={project.title}
-									className="aspect-5/3 object-cover object-center"
+									style={{
+										width: "100%",
+										height: "auto",
+									}}
+									className="aspect-5/3 object-cover object-center border rounded-lg mb-2"
 								/>
 							</div>
-							{project.title}
+							<p className="text-xl lg:text-lg tracking-tighter">{project.title}</p>
 							<Separator />
 							<div className="flex items-center">
 								<div>
