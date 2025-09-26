@@ -66,7 +66,7 @@
 		"logo": "./mongodb.svg"
 	},
 	"latex": {
-		"name": "LaTeX",
+		"name": "The LaTeX Project",
 		"url": "https://www.latex-project.org",
 		"logo": "./latex.svg"
 	},
@@ -211,8 +211,8 @@
 		"logo": "./amazontextract.svg"
 	},
 	"openai": {
-		"name": "OpenAI",
-		"url": "https://platform.openai.com/docs/models/gp#gpt-3-5-turbo",
+		"name": "GPT-3.5 Turbo",
+		"url": "https://platform.openai.com/docs/models/gpt-3.5-turbo",
 		"logo": "./openai.svg"
 	},
 	"vercel": {
@@ -304,5 +304,10 @@
 		"name": "XAMPP",
 		"url": "https://www.apachefriends.org",
 		"logo": "./xampp.svg"
+	},
+	"servicenow": {
+		"name": "ServiceNow",
+		"url": "https://www.servicenow.com",
+		"logo": "./servicenow.svg"
 	}
 }
