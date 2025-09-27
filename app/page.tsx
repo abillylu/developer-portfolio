@@ -125,7 +125,7 @@ export default function Home() {
 				<Card className="opacity-90 p-2 text-justify">
 					<p className="font-sans p-10 scroll-m-20 text-4xl md:text-6xl text-center font-extrabold tracking-tight text-balance fill-cyan-500 drop-shadow-lg drop-shadow-cyan-500/20">
 						<span className="bg-gradient-to-r from-blue-300 to-teal-300 via-purple-300 bg-clip-text text-transparent">
-							BILLY A. LU: SOFTWARE DEVELOPER🗲
+							BILLY A. LU: SOFTWARE DEVELOPER⚡
 						</span>
 					</p>
 				</Card>
