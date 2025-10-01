@@ -124,7 +124,7 @@ export const ProjectCard = () => {
 								<div>
 									<Badge variant={"secondary"}>
 										<Clock />
-										{project.duration.start} - {project.duration.end}
+										{project.duration.start} {`${project.duration.end === "Done" ? "" : " - " + project.duration.end}`}
 									</Badge>
 								</div>
 								<div>
