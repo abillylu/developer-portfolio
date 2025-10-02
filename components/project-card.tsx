@@ -79,6 +79,7 @@ interface Project {
 		start: string;
 		end: string;
 	};
+	category: string;
 	completed: boolean;
 	summary: string;
 	descriptions: {

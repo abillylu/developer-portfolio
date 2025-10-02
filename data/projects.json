@@ -8,6 +8,7 @@
 				"start": "June 2025",
 				"end": "Present"
 			},
+			"category": "project",
 			"completed": false,
 			"summary": "Digital Transformation solution for local probions company \"Agresource Inc.\"",
 			"descriptions": [
@@ -63,6 +64,7 @@
 				"start": "Jan",
 				"end": "May 2025"
 			},
+			"category": "project",
 			"completed": true,
 			"summary": "Document Management System for \"Thor Custom's Brokerage\" and \"Mighty Star Trucking Services Company\".",
 			"descriptions": [
@@ -119,6 +121,7 @@
 				"start": "Oct 2024",
 				"end": "Done"
 			},
+			"category": "project",
 			"completed": true,
 			"summary": "Single Page application designed for medtech interns to check their shifting schedules with ease.",
 			"descriptions": [
@@ -165,6 +168,7 @@
 				"start": "Oct 2023",
 				"end": "Jun 2024"
 			},
+			"category": "project",
 			"completed": true,
 			"summary": "Web application designed to help project managers simulate different decisions during a project, given a project timeline and its resources.",
 			"descriptions": [
@@ -218,6 +222,7 @@
 				"start": "Aug 2022",
 				"end": "Jun 2023"
 			},
+			"category": "coursework",
 			"completed": true,
 			"summary": "Computer Science Thesis Manuscript Text Classification Project.",
 			"descriptions": [
@@ -274,6 +279,7 @@
 				"start": "Apr",
 				"end": "May 2023"
 			},
+			"category": "coursework",
 			"completed": true,
 			"summary": "Single Page Application that solves the L and U matrices for a given matrix.",
 			"descriptions": [
@@ -320,6 +326,7 @@
 				"start": "Apr",
 				"end": "May 2023"
 			},
+			"category": "project",
 			"completed": true,
 			"summary": "Web Application Tool designed to help teachers automatically check exams.",
 			"descriptions": [
@@ -366,6 +373,7 @@
 				"start": "August",
 				"end": "November 2022"
 			},
+			"category": "coursework",
 			"completed": true,
 			"summary": "Collection of Image Processing Techniques done from scratch.",
 			"descriptions": [
@@ -412,6 +420,7 @@
 				"start": "Apr",
 				"end": "May 2022"
 			},
+			"category": "coursework",
 			"completed": true,
 			"summary": "Mobile Chat Application that implements the basic requirements for a Chat App.",
 			"descriptions": [
@@ -458,6 +467,7 @@
 				"start": "Mar 2022",
 				"end": "Done"
 			},
+			"category": "coursework",
 			"completed": true,
 			"summary": "Mobile Calculator Application that features basic arithmetic.",
 			"descriptions": [
@@ -504,6 +514,7 @@
 				"start": "Jan 2022",
 				"end": "Done"
 			},
+			"category": "coursework",
 			"completed": true,
 			"summary": "Console application that demonstrates CPU scheduling algorithms.",
 			"descriptions": [
@@ -550,6 +561,7 @@
 				"start": "Nov 2020",
 				"end": "Dec 2021"
 			},
+			"category": "coursework",
 			"completed": true,
 			"summary": "Inventory Management System for the local company \"Tony's Lumber and Construction Supply\".",
 			"descriptions": [
@@ -596,6 +608,7 @@
 				"start": "Dec 2020",
 				"end": "Jul 2021"
 			},
+			"category": "coursework",
 			"completed": true,
 			"summary": "Simple Java application to demonstrate Chess logic.",
 			"descriptions": [
